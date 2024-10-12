@@ -2,8 +2,9 @@
   "name": "webchat",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "node --watch src/index"
+    "start": "node --watch src/index"
   },
   "engines": {
     "node": "~20.15.0"
