@@ -1,0 +1,19 @@
+{
+  "name": "webchat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --watch src/index"
+  },
+  "engines": {
+    "node": "~20.15.0"
+  },
+  "keywords": [],
+  "author": "Eliane Rivera Castillo",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "socket.io": "^4.8.0"
+  }
+}
